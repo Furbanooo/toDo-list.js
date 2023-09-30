@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(206, 206, 206);
+    font-size: larger;
+}
+
+.p1{
+    font-size: xx-large;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.inputs, .js-task{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    gap: 20px;
+    align-items: center;
+}
+
+.js-task{
+    margin-left: 10px;
+}
+
+.inputs{
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+input{
+    font-size: 15px;
+    padding: 10px;
+    border: solid rgba(0, 0, 0, 0.459) 1px;
+    border-radius: 20px;
+    border-
+}
+
+.js-dueDate-input{
+    padding: 9px;
+}
+
+.add-todo-btn{
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(29, 175, 29);
+    border: none;
+    border-radius: 20px;
+    color: rgb(250, 250, 250);
+}
+
+.delet-task-bnt{
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(156, 0, 0);
+    border: none;
+    border-radius: 20px;
+    color: rgb(250, 250, 250);
+    margin-left: -10px; 
+    margin-right: 10px;
+    
+}
